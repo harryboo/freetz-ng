@@ -89,14 +89,14 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 267: [FRITZ.Box_6690_Cable-07.39-97334-LabBETA.image](http://download.avm.de/labor/MOVE21/6690Cable/FRITZ.Box_6690_Cable-07.39-97334-LabBETA.image)
 
 ### FOS-Inhaus
- - HWR 226: [FRITZ.Box_7590-07.39-97844-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590/FRITZ.Box_7590-07.39-97844-Inhaus.image)
- - HWR 234: [FRITZ.Box_6890_LTE-07.39-96026-Inhaus.image](http://download.avm.de/inhaus/MOVE21/6890LTE/FRITZ.Box_6890_LTE-07.39-96026-Inhaus.image)
+ - HWR 226: [FRITZ.Box_7590-07.39-98016-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590/FRITZ.Box_7590-07.39-98016-Inhaus.image)
+ - HWR 234: [FRITZ.Box_6890_LTE-07.39-98012-Inhaus.image](http://download.avm.de/inhaus/MOVE21/6890LTE/FRITZ.Box_6890_LTE-07.39-98012-Inhaus.image)
  - HWR 236: [FRITZ.Box_7530-07.39-97546-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530/FRITZ.Box_7530-07.39-97546-Inhaus.image)
  - HWR 241: [FRITZ.Repeater_2400-07.39-97568-Inhaus.image](http://download.avm.de/inhaus/MOVE21/2400/FRITZ.Repeater_2400-07.39-97568-Inhaus.image)
  - HWR 246: [FRITZ.Repeater_3000-07.39-97570-Inhaus.image](http://download.avm.de/inhaus/MOVE21/3000/FRITZ.Repeater_3000-07.39-97570-Inhaus.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.39-97709-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530AX/FRITZ.Box_7530_AX-07.39-97709-Inhaus.image)
  - HWR 258: [FRITZ.Box_6850_5G-07.39-96217-Inhaus.image](http://download.avm.de/inhaus/MOVE21/68505G/FRITZ.Box_6850_5G-07.39-96217-Inhaus.image)
- - HWR 259: [FRITZ.Box_7590_AX-07.39-97847-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590AX/FRITZ.Box_7590_AX-07.39-97847-Inhaus.image)
+ - HWR 259: [FRITZ.Box_7590_AX-07.39-98018-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590AX/FRITZ.Box_7590_AX-07.39-98018-Inhaus.image)
  - HWR 261: [FRITZ.Box_4060-07.39-97680-Inhaus.image](http://download.avm.de/inhaus/MOVE21/4060/FRITZ.Box_4060-07.39-97680-Inhaus.image)
  - HWR 262: [FRITZ.Box_6850_LTE-07.39-96323-Inhaus.image](http://download.avm.de/inhaus/MOVE21/6850LTE/FRITZ.Box_6850_LTE-07.39-96323-Inhaus.image)
 
