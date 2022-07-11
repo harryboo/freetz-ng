@@ -88,11 +88,11 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 267: [FRITZ.Box_6690_Cable-07.39-97334-LabBETA.image](http://download.avm.de/labor/MOVE21/6690Cable/FRITZ.Box_6690_Cable-07.39-97334-LabBETA.image)
 
 ### FOS-Inhaus
- - HWR 226: [FRITZ.Box_7590-07.39-98016-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590/FRITZ.Box_7590-07.39-98016-Inhaus.image)
- - HWR 234: [FRITZ.Box_6890_LTE-07.39-98012-Inhaus.image](http://download.avm.de/inhaus/MOVE21/6890LTE/FRITZ.Box_6890_LTE-07.39-98012-Inhaus.image)
+ - HWR 226: [FRITZ.Box_7590-07.39-98077-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590/FRITZ.Box_7590-07.39-98077-Inhaus.image)
+ - HWR 234: [FRITZ.Box_6890_LTE-07.39-98079-Inhaus.image](http://download.avm.de/inhaus/MOVE21/6890LTE/FRITZ.Box_6890_LTE-07.39-98079-Inhaus.image)
  - HWR 236: [FRITZ.Box_7530-07.39-97546-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530/FRITZ.Box_7530-07.39-97546-Inhaus.image)
- - HWR 241: [FRITZ.Repeater_2400-07.39-97994-Inhaus.image](http://download.avm.de/inhaus/MOVE21/2400/FRITZ.Repeater_2400-07.39-97994-Inhaus.image)
- - HWR 246: [FRITZ.Repeater_3000-07.39-97996-Inhaus.image](http://download.avm.de/inhaus/MOVE21/3000/FRITZ.Repeater_3000-07.39-97996-Inhaus.image)
+ - HWR 241: [FRITZ.Repeater_2400-07.39-98084-Inhaus.image](http://download.avm.de/inhaus/MOVE21/2400/FRITZ.Repeater_2400-07.39-98084-Inhaus.image)
+ - HWR 246: [FRITZ.Repeater_3000-07.39-98086-Inhaus.image](http://download.avm.de/inhaus/MOVE21/3000/FRITZ.Repeater_3000-07.39-98086-Inhaus.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.39-98022-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530AX/FRITZ.Box_7530_AX-07.39-98022-Inhaus.image)
  - HWR 258: [FRITZ.Box_6850_5G-07.39-96217-Inhaus.image](http://download.avm.de/inhaus/MOVE21/68505G/FRITZ.Box_6850_5G-07.39-96217-Inhaus.image)
  - HWR 259: [FRITZ.Box_7590_AX-07.39-98018-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590AX/FRITZ.Box_7590_AX-07.39-98018-Inhaus.image)
@@ -136,10 +136,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - MHW 08.03: [08.03.04.84.avm.de.upd](http://download.avm.de/dect/0803/labor1/08.03.04.84.avm.de.upd)
 
 ### Dect-Inhaus
- - MHW 05.01: [05.01.04.82.avm.de.upd](http://download.avm.de/dect/0501/labor/05.01.04.82.avm.de.upd)
- - MHW 08.01: [08.01.04.82.avm.de.upd](http://download.avm.de/dect/0801/labor/08.01.04.82.avm.de.upd)
- - MHW 08.02: [08.02.04.82.avm.de.upd](http://download.avm.de/dect/0802/labor/08.02.04.82.avm.de.upd)
- - MHW 08.03: [08.03.04.82.avm.de.upd](http://download.avm.de/dect/0803/labor/08.03.04.82.avm.de.upd)
 
 ### BPjM
  - CRC 0aa656ff: [bpjm_20220704_bpjm-modul_06_22.txt.data](http://download.avm.de/bpjm/205852/bpjm_20220704_bpjm-modul_06_22.txt.data)
