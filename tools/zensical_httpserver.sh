@@ -54,10 +54,24 @@ run_httpserver() {
 	zensical serve --dev-addr "[::]:$PORT" --config-file "$ZENDIR/zensical.toml"  # --open
 }
 
+build_site() {
+	[ -d "$ENVDIR" ] || setup_virtenv || exit 1
+
+	source "$ENVDIR/bin/activate"
+	zensical build --config-file "$ZENDIR/zensical.toml"  # --clean
+
+	echo "##################################################"
+	echo "     Site content can be found in ./zensical/"
+	echo "##################################################"
+
+	ln -sf "$ZENDIR/site" "$PARENT/zensical"
+}
+
 cleanup_virtenv() {
 	rm -rf "$ENVDIR"
 	rm -rf "$ZENDIR/.cache/"
 	rm -rf "$ZENDIR/site/"
+	rm -f "$PARENT/zensical"
 	echo "Done."
 }
 
@@ -66,7 +80,7 @@ show_usage() {
 
 	Zensical http server
 
-	Usage: $0 [ install [-y] | setup | run [port] | cleanup ]
+	Usage: $0 [ install [-y] | setup | run [port] | build | cleanup ]
 
 	 - install [-y]
 	   Installs packages by package-manager, python3, pip3 and venv.
@@ -82,6 +96,9 @@ show_usage() {
 	 - run [port]
 	   Runs Zensical http server listening on all ips.
 	   Default Port: 8000/tcp
+
+	 - build
+	   Build website locally only.
 
 	 - cleanup
 	   Removes caches and virtual environment directories, needs setup again.
@@ -100,6 +117,7 @@ case "$ARG" in
 	i|install)	install_python "$DOY" ;;
 	s|setup)	setup_virtenv ;;
 	r|run)		run_httpserver "$PORT" ;;
+	b|build)	build_site ;;
 	c|cleanup)	cleanup_virtenv ;;
 	*)		show_usage ;;
 esac
