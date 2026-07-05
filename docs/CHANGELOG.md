@@ -133,7 +133,7 @@ Latest changes
     * mini-snmpd 1.7
     * Minicom 2.11.1
     * Mosquitto 2.0.22/2.1.2
-    * Nano 9.0
+    * Nano 9.1
     * Nmap 4.76/5.51/7.99
     * OpenSSH 9.3p2/10.3p1
     * OpenSSL 0.9.8zh/1.0.2u/1.1.1w/3.0.21/3.5.7
