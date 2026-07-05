@@ -1,1 +1,3 @@
-zensical
+zensical==0.0.46
+# 0.0.47: "Error: docs_dir must be within project root"
+
