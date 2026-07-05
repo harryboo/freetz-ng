@@ -107,7 +107,7 @@ Latest changes
     * Apache2 2.4.68
     * Atop 2.12.1
     * Bftpd 6.6
-    * BIND 9.11.37/9.20.23
+    * BIND 9.11.37/9.20.24
     * Binutils 2.46.0
     * BusyBox 1.27.2/1.38.0
     * CA-bundle 2026-05-14
