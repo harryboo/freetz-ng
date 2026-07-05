@@ -6,9 +6,9 @@ site_url = "https://freetz-ng.github.io/"
 site_dir = "site"
 repo_url = "https://github.com/freetz-ng/freetz-ng"
 edit_uri = "../freetz-ng/blob/master/docs/"
-docs_dir = "docs"
+docs_dir = "."
 copyright = '&copy <span>Freetz-NG</span><br/><span>Licensed under <a href="https://github.com/Freetz-NG/freetz-ng/raw/refs/heads/master/COPYING" target="_blank" rel="noopener noreferrer">GPL-2.0</a></span><br/>'
-extra_css = ["extra.css"]
+extra_css = ["zensical.css"]
 
 [project.extra]
 generator = false
@@ -79,3 +79,5 @@ pygments_lang_class = true
 alternate_style = "true"
 
 [project.markdown_extensions.pymdownx.tilde]
+
+

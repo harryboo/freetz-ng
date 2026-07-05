@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 SCRIPT="$(readlink -f $0)"
 PARENT="$(dirname ${SCRIPT%/*})"
-ZENDIR="$PARENT/.github/zensical"
+ZENDIR="$PARENT/docs"
 ENVDIR="$ZENDIR/.venv"
 
 
@@ -37,7 +37,7 @@ setup_virtenv() {
 	python3 -m venv "$ENVDIR"                                   || exit 1
 	source "$ENVDIR/bin/activate"                               || exit 1
 	pip3 install --upgrade pip                                  || exit 1
-	pip3 install -r "$ZENDIR/requirements.txt"                  || exit 1
+	pip3 install "zensical"                                     || exit 1
 }
 
 run_httpserver() {
@@ -60,18 +60,15 @@ build_site() {
 	source "$ENVDIR/bin/activate"
 	zensical build --config-file "$ZENDIR/zensical.toml"  # --clean
 
-	echo "##################################################"
-	echo "     Site content can be found in ./zensical/"
-	echo "##################################################"
-
-	ln -sf "$ZENDIR/site" "$PARENT/zensical"
+	echo "###################################################"
+	echo "     Site content can be found in ./docs/site/"
+	echo "###################################################"
 }
 
 cleanup_virtenv() {
 	rm -rf "$ENVDIR"
 	rm -rf "$ZENDIR/.cache/"
 	rm -rf "$ZENDIR/site/"
-	rm -f "$PARENT/zensical"
 	echo "Done."
 }
 
