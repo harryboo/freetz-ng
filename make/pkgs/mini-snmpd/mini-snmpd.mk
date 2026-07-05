@@ -1,17 +1,22 @@
-$(call PKG_INIT_BIN,1.7)
+$(call PKG_INIT_BIN,2.0)
 $(PKG)_SOURCE:=mini-snmpd-$($(PKG)_VERSION).tar.gz
-$(PKG)_HASH:=bf119818276cd63e37d29d4c5e88f8cdf2975113bc9a2a39ee2b3a91f66de20a
+$(PKG)_HASH:=851acf49a1a36356664af0a7a040fa31f75403eb26e03627eba188ee15d4854c
 $(PKG)_SITE:=https://github.com/troglobit/mini-snmpd/releases/download/v$($(PKG)_VERSION)
 ### WEBSITE:=https://troglobit.com/projects/mini-snmpd/
 ### MANPAGE:=https://ftp.troglobit.com/mini-snmpd/mini-snmpd.html
 ### CHANGES:=https://github.com/troglobit/mini-snmpd/releases
 ### CVSREPO:=https://github.com/troglobit/mini-snmpd
 
-$(PKG)_BINARY:=$($(PKG)_DIR)/mini-snmpd
+$(PKG)_BINARY:=$($(PKG)_DIR)/src/mini-snmpd
 $(PKG)_TARGET_BINARY:=$($(PKG)_DEST_DIR)/usr/bin/mini-snmpd
+
+$(PKG)_DEPENDS_ON += libconfuse
 
 $(PKG)_REBUILD_SUBOPTS += FREETZ_TARGET_IPV6_SUPPORT
 
+$(PKG)_CONFIGURE_OPTIONS += --disable-debug
+$(PKG)_CONFIGURE_OPTIONS += --disable-demo
+$(PKG)_CONFIGURE_OPTIONS += --disable-test
 $(PKG)_CONFIGURE_OPTIONS += $(if $(FREETZ_TARGET_IPV6_SUPPORT),--enable-ipv6,--disable-ipv6)
 
 

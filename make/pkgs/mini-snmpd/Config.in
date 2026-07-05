@@ -1,6 +1,7 @@
 config FREETZ_PACKAGE_MINI_SNMPD
-	bool "mini-snmpd 1.7 (binary only)"
+	bool "mini-snmpd 2.0 (binary only)"
 	depends on !(FREETZ_TARGET_UCLIBC_0_9_28 || FREETZ_TARGET_UCLIBC_0_9_29)
+	select FREETZ_LIB_libconfuse
 	default n
 	help
 		This program is an SNMP server for "embedded systems".
