@@ -74,7 +74,7 @@ Latest changes
     * cmake 4.3.4
     * dos2unix 7.5.5
     * dtc 1.8.1
-    * fakeroot 1.38.1
+    * fakeroot 2.0
     * file 5.47
     * kconfig 7.1
     * meson 1.11.1
