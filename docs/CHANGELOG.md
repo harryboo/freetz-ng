@@ -172,6 +172,7 @@ Latest changes
     * libcjson 1.7.19
     * libevent 2.1.13
     * libexif 0.6.26
+    * libffi 3.7.0
     * libmaxminddb 1.13.3
     * libpng 1.6.58
     * libusb(-compat) 0.1.12/0.1.9

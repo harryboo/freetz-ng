@@ -1,7 +1,7 @@
-$(call PKG_INIT_LIB, 3.6.0)
-$(PKG)_LIB_VERSION:=8.3.1
+$(call PKG_INIT_LIB, 3.7.0)
+$(PKG)_LIB_VERSION:=8.4.0
 $(PKG)_SOURCE:=$(pkg)-$($(PKG)_VERSION).tar.gz
-$(PKG)_HASH:=31ff1fe32deaebfbb388727f32677bb254bf2a41382c51464c0b1837c9ee9828
+$(PKG)_HASH:=2255c5a638dfb51bf67c20a12a7bb70d17feb1e9eababac05f5573146f586436
 $(PKG)_SITE:=https://github.com/libffi/libffi/releases/download/v$($(PKG)_VERSION),ftp://sourceware.org/pub/libffi
 ### WEBSITE:=http://sourceware.org/libffi
 ### CHANGES:=https://github.com/libffi/libffi/releases
