@@ -77,7 +77,7 @@ Latest changes
     * fakeroot 2.0
     * file 5.47
     * kconfig 7.1
-    * meson 1.11.1
+    * meson 1.11.2
     * openssl 3.5.7
     * patch 2.8
     * pseudo 1.9.8
