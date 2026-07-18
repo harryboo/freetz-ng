@@ -145,7 +145,7 @@ Latest changes
     * rsync 3.4.1/3.4.4
     * sslh 2.2.4/2.3.1
     * Stunnel 5.79
-    * SQLite 3.40.1/3.53.1
+    * SQLite 3.40.1/3.53.3
     * tinc 1.0.37/1.1pre18
     * Tinyproxy 1.11.3
     * tmux 3.7b
