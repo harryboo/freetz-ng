@@ -105,7 +105,7 @@ Latest changes
   - Packages:
     * ACME.sh 3.1.4
     * Apache2 2.4.68
-    * Atop 2.12.1
+    * Atop 2.13.0
     * Bftpd 6.6
     * BIND 9.11.37/9.20.24
     * Binutils 2.46.0
