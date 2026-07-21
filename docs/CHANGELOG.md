@@ -114,7 +114,7 @@ Latest changes
     * Curl 8.12.1/8.21.0
     * davfs2 1.5.2/1.7.3
     * Dnsmasq 2.80/2.93
-    * Dropbear 2026.92
+    * Dropbear 2026.93
     * dtc 1.8.1
     * Git 2.26.2/2.53.0
     * HAProxy 2.6.29
