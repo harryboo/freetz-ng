@@ -48,7 +48,6 @@ Content: [FritzBox](#fritzbox) - [FritzPowerline](#fritzpowerline) - [FritzSmart
     - other: [FRITZ.Box_5690-08.25.image](https://download.avm.de/fritzbox/fritzbox-5690/other/fritz.os/FRITZ.Box_5690-08.25.image)
   * fritzbox-5690-pro/
     - deutschland: [FRITZ.Box_5690_Pro-08.25.image](https://download.avm.de/fritzbox/fritzbox-5690-pro/deutschland/fritz.os/FRITZ.Box_5690_Pro-08.25.image)
-    - other: [FRITZ.Box_5690_Pro-08.22.image](https://download.avm.de/fritzbox/fritzbox-5690-pro/other/fritz.os/FRITZ.Box_5690_Pro-08.22.image)
     - other: [FRITZ.Box_5690_Pro-08.25.image](https://download.avm.de/fritzbox/fritzbox-5690-pro/other/fritz.os/FRITZ.Box_5690_Pro-08.25.image)
   * fritzbox-5690-xgs/
     - deutschland: [FRITZ.Box_5690_XGS-08.20.image](https://download.avm.de/fritzbox/fritzbox-5690-xgs/deutschland/fritz.os/FRITZ.Box_5690_XGS-08.20.image)
@@ -194,7 +193,6 @@ Content: [FritzBox](#fritzbox) - [FritzPowerline](#fritzpowerline) - [FritzSmart
     - other: [FRITZ.Box_7682-08.03.image](https://download.avm.de/fritzbox/fritzbox-7682/other/fritz.os/FRITZ.Box_7682-08.03.image)
   * fritzbox-7690/
     - deutschland: [FRITZ.Box_7690-08.25.image](https://download.avm.de/fritzbox/fritzbox-7690/deutschland/fritz.os/FRITZ.Box_7690-08.25.image)
-    - other: [FRITZ.Box_7690-08.22.image](https://download.avm.de/fritzbox/fritzbox-7690/other/fritz.os/FRITZ.Box_7690-08.22.image)
     - other: [FRITZ.Box_7690-08.25.image](https://download.avm.de/fritzbox/fritzbox-7690/other/fritz.os/FRITZ.Box_7690-08.25.image)
 
 ### FritzPowerline
