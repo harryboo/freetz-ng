@@ -152,7 +152,7 @@ Latest changes
     * Tor 0.4.8.25
     * Transmission 3.00/4.1.3
     * Tree 1.8.0/2.3.2
-    * Unbound 1.25.1
+    * Unbound 1.25.2
     * UnRAR 6.1.7/7.2.5
     * Virtualip-NG 1.0
     * wireguard-tools 1.0.20260223
