@@ -103,6 +103,9 @@ Content: [FritzBox](#fritzbox) - [FritzPowerline](#fritzpowerline) - [FritzSmart
   * fritzbox-6850-5g/
     - deutschland: [FRITZ.Box_6850_5G-08.25.image](https://download.avm.de/fritzbox/fritzbox-6850-5g/deutschland/fritz.os/FRITZ.Box_6850_5G-08.25.image)
     - other: [FRITZ.Box_6850_5G-08.25.image](https://download.avm.de/fritzbox/fritzbox-6850-5g/other/fritz.os/FRITZ.Box_6850_5G-08.25.image)
+  * fritzbox-6850-5g-v2/
+    - deutschland: [FRITZ.Box_6850_5G_v2-08.25.image](https://download.avm.de/fritzbox/fritzbox-6850-5g-v2/deutschland/fritz.os/FRITZ.Box_6850_5G_v2-08.25.image)
+    - other: [FRITZ.Box_6850_5G_v2-08.25.image](https://download.avm.de/fritzbox/fritzbox-6850-5g-v2/other/fritz.os/FRITZ.Box_6850_5G_v2-08.25.image)
   * fritzbox-6850-lte/
     - deutschland: [FRITZ.Box_6850_LTE-08.25.image](https://download.avm.de/fritzbox/fritzbox-6850-lte/deutschland/fritz.os/FRITZ.Box_6850_LTE-08.25.image)
     - other: [FRITZ.Box_6850_LTE-08.25.image](https://download.avm.de/fritzbox/fritzbox-6850-lte/other/fritz.os/FRITZ.Box_6850_LTE-08.25.image)
