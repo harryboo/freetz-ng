@@ -1,6 +1,8 @@
-$(call PKG_INIT_BIN, 5.6.40)
+$(call PKG_INIT_BIN, $(if $(FREETZ_PACKAGE_PHP_VERSION_56),5.6.40,todo))
+$(PKG)_LIB_VERSION:=$(call GET_MAJOR_VERSION,$($(PKG)_VERSION),1)
 $(PKG)_SOURCE:=php-$($(PKG)_VERSION).tar.xz
-$(PKG)_HASH:=1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c
+$(PKG)_HASH_5.6:=1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c
+$(PKG)_HASH:=$($(PKG)_HASH_$(call GET_MAJOR_VERSION,$($(PKG)_VERSION)))
 $(PKG)_SITE:=https://www.php.net/distributions,https://de.php.net/distributions,https://de2.php.net/distributions
 ### WEBSITE:=https://www.php.net
 ### MANPAGE:=https://www.php.net/docs.php
@@ -13,10 +15,12 @@ $(PKG)_TARGET_BINARY       := $($(PKG)_DEST_DIR)/usr/bin/php-cgi
 $(PKG)_CLI_BINARY          := $($(PKG)_DIR)/sapi/cli/php
 $(PKG)_CLI_TARGET_BINARY   := $($(PKG)_DEST_DIR)/usr/bin/php
 
-$(PKG)_APXS2_BINARY        := $($(PKG)_DIR)/libs/libphp5.so
-$(PKG)_APXS2_TARGET_BINARY := $($(PKG)_DEST_DIR)/usr/lib/apache2/libphp5.so
+$(PKG)_APXS2_BINARY        := $($(PKG)_DIR)/libs/libphp$($(PKG)_LIB_VERSION).so
+$(PKG)_APXS2_TARGET_BINARY := $($(PKG)_DEST_DIR)/usr/lib/apache2/libphp$($(PKG)_LIB_VERSION).so
 
 $(PKG)_STARTLEVEL=90 # before lighttpd
+
+$(PKG)_REBUILD_SUBOPTS += FREETZ_PACKAGE_PHP_VERSION_56
 
 $(PKG)_CONDITIONAL_PATCHES+=$(call GET_MAJOR_VERSION,$($(PKG)_VERSION))
 
