@@ -498,7 +498,7 @@ Index: [A](#a) - [B](#b) - [C](#c) - [D](#d) - [E](#e) - [F](#f) - [G](#g) - [H]
   * **<u>phonebook-tools: Phone book tools 1.0</u><a id='phonebook-tools'></a>**<br>
     A set of tools for reading and converting Fritz!Box phone book to such (easy parseable) formats like: - .csv (comma-separated values), or - .tsv (tab-separated values).
 
-  * **[PHP 5.6.40 (binary only) - DEPRECATED](php.md)<a id='php'></a>**<br>
+  * **[PHP 5.6.40/8.3.32/8.4.23/8.5.8 (binary only)](php.md)<a id='php'></a>**<br>
     PHP: Hypertext Preprocessor PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly.
 
   * **[Pingtunnel 0.72 - DEPRECATED](pingtunnel.md)<a id='pingtunnel'></a>**<br>

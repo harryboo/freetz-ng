@@ -1,4 +1,4 @@
-# PHP 5.6.40 (binary only) - DEPRECATED
+# PHP 5.6.40/8.3.32/8.4.23/8.5.8 (binary only)
   - Homepage: [https://www.php.net](https://www.php.net)
   - Manpage: [https://www.php.net/docs.php](https://www.php.net/docs.php)
   - Changelog: [https://github.com/php/php-src/releases](https://github.com/php/php-src/releases)
